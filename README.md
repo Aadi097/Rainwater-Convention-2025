@@ -32,8 +32,8 @@ You need to have [Node.js](https://nodejs.org/) (version 20 or later) and npm in
 
 1.  **Clone the repository**:
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/Aadi097/Rainwater-Convention-2025.git
+    cd Rainwater-Convention-2025
     ```
 
 2.  **Install dependencies**:
@@ -52,7 +52,28 @@ npm run dev
 
 This will start the development server, typically on port 8000. Open [http://localhost:8000](http://localhost:8000) in your browser to see the website.
 
-The application will automatically reload if you make any changes to the code.
+### Building for Production (Windows-friendly)
+
+To create an optimized production build and run it locally:
+
+```bash
+npm run build
+npm start
+```
+
+- By default, `npm start` runs on port 3000 → open http://localhost:3000
+- To choose a different port in PowerShell:
+
+```powershell
+$env:PORT=8080; npm start
+```
+
+### Useful Scripts
+
+- `npm run lint` → run ESLint checks
+- `npm run lint:fix` → auto-fix lint issues
+- `npm run fix:all` → shortcut to run `lint:fix`
+- `npm run typecheck` → run TypeScript type checking (no emit)
 
 ### Admin Credentials
 
