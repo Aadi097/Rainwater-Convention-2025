@@ -50,7 +50,7 @@ To start the application in development mode, run:
 npm run dev
 ```
 
-This will start the development server, typically on port 8000. Open [http://localhost:8000](http://localhost:8000) in your browser to see the website.
+This will start the development server, typically on port 8000. Open [http://localhost:8000](http://localhost:8000) in your browser to see the website..
 
 The application will automatically reload if you make any changes to the code.
 
