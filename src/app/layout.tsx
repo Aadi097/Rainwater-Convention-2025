@@ -7,6 +7,7 @@ import { Toaster } from "@/components/ui/toaster"
 export const metadata: Metadata = {
   title: 'Rainwater Convention 2025',
   description: 'Save Water. Sustain Life.',
+  icons: { icon: '/favicon.ico' },
 };
 
 export default function RootLayout({
